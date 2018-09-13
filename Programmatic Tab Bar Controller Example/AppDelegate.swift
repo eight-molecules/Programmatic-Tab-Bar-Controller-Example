@@ -16,6 +16,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let tabBarController = UITabBarController()
+        
+        let firstViewController = ViewController()
+        firstViewController.title = "First"
+        firstViewController.view.backgroundColor = .black
+        firstViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .topRated, tag: 0)
+        
+        let secondViewController = ViewController()
+        secondViewController.title = "Second"
+        secondViewController.view.backgroundColor = .gray
+        secondViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 1)
+        
+        let thirdViewController = ViewController()
+        thirdViewController.title = "Third"
+        thirdViewController.view.backgroundColor = .white
+        thirdViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 2)
+        
+        let controllers = [firstViewController, secondViewController, thirdViewController].map { (viewController) -> UINavigationController in
+            UINavigationController(rootViewController: viewController)
+        }
+        
+        tabBarController.setViewControllers(controllers, animated: true)
+        
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

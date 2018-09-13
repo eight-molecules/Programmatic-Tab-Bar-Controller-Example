@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EF0C9BA0214ABBE0001CC064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C9B9F214ABBE0001CC064 /* AppDelegate.swift */; };
 		EF0C9BA2214ABBE0001CC064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C9BA1214ABBE0001CC064 /* ViewController.swift */; };
-		EF0C9BA5214ABBE0001CC064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0C9BA3214ABBE0001CC064 /* Main.storyboard */; };
 		EF0C9BA7214ABBE2001CC064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0C9BA6214ABBE2001CC064 /* Assets.xcassets */; };
 		EF0C9BAA214ABBE2001CC064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0C9BA8214ABBE2001CC064 /* LaunchScreen.storyboard */; };
 		EF0C9BB5214ABBE2001CC064 /* Programmatic_Tab_Bar_Controller_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C9BB4214ABBE2001CC064 /* Programmatic_Tab_Bar_Controller_ExampleTests.swift */; };
@@ -37,7 +36,6 @@
 		EF0C9B9C214ABBE0001CC064 /* Programmatic Tab Bar Controller Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmatic Tab Bar Controller Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0C9B9F214ABBE0001CC064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF0C9BA1214ABBE0001CC064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF0C9BA4214ABBE0001CC064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF0C9BA6214ABBE2001CC064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF0C9BA9214ABBE2001CC064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF0C9BAB214ABBE2001CC064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			children = (
 				EF0C9B9F214ABBE0001CC064 /* AppDelegate.swift */,
 				EF0C9BA1214ABBE0001CC064 /* ViewController.swift */,
-				EF0C9BA3214ABBE0001CC064 /* Main.storyboard */,
 				EF0C9BA6214ABBE2001CC064 /* Assets.xcassets */,
 				EF0C9BA8214ABBE2001CC064 /* LaunchScreen.storyboard */,
 				EF0C9BAB214ABBE2001CC064 /* Info.plist */,
@@ -231,7 +228,6 @@
 			files = (
 				EF0C9BAA214ABBE2001CC064 /* LaunchScreen.storyboard in Resources */,
 				EF0C9BA7214ABBE2001CC064 /* Assets.xcassets in Resources */,
-				EF0C9BA5214ABBE0001CC064 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF0C9BA3214ABBE0001CC064 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF0C9BA4214ABBE0001CC064 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF0C9BA8214ABBE2001CC064 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
